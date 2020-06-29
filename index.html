@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Tires-shop</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<!-- Main container -->
+		<main>
+			<!-- Header -->
+			<div class="header">
+				<div class="header-content">
+					<!-- Contacts -->
+					<ul class="contacts">
+						<li class="phone-icon-bg">
+							<img src="img/tel-icon.png" class="phone-icon" alt="Тут должна быть иконка трубки">
+						</li>
+
+						<li class="phone-number">
+							<a href="tel:+0441234567">(044)123-45-67</a>
+							<a href="tel:+0445678910">(044)567-89-10</a>
+						</li>
+					</ul>
+					<!-- end Contacts -->
+					<!-- Registration block -->
+					<div class="registration-block">
+						<img src="img/login-icon.png" class="login-icon" alt="Человечек">
+
+						<form action="login-form" class="login-form">
+							<label for="login">
+								<input type="text" id="login" name="login" class="login-field" placeholder="логин" required="required">
+							</label>
+							<label for="password">
+								<input type="password" id="password" name="password" class="password-field" placeholder="пароль" required="required">
+							</label>
+						</form>
+
+						<div class="login-url">
+							<a href="#" class="enter">вход</a>
+							<a href="#" class="registration">регистрация</a>
+						</div>
+
+						<div class="forgot-pass">
+							<a href="">забыли пароль?</a>
+						</div>
+
+					</div>
+					<!-- end Registration block -->
+
+					<div class="nav-icon">
+						<a href="#"><img src="img/home-icon.png" class="home-icon" alt=""></a>
+						<a href="#"><img src="img/sitemap-icon.png" class="sitemap-icon" alt=""></a>
+						<a href="#"><img src="img/email-icon.png" class="email-icon" alt=""></a>
+					</div>
+
+				</div>
+			</div>
+			<!-- end Header -->
+			<!-- Slider -->
+			<div class="slider">
+				<img src="img/banner.png" alt="Тут баннер">
+			</div>
+			<!-- end Slider -->
+			<!-- Nav MENU -->
+			<nav class="navigation-top">
+
+				<ul class="menu-top">
+					<li><a href="#" class="menu-point-active">О компании</a></li>
+					<li><a href="#" class="menu-point">Оплата</a></li>
+					<li><a href="#" class="menu-point">Доставка</a></li>
+					<li><a href="#" class="menu-point">Статьи</a></li>
+					<li><a href="#" class="menu-point">Контакты</a></li>
+				</ul>
+
+				<div class="cart-block">
+					<a href="#"><img src="img/cart-icon.png" alt="иконка корзины"></a>
+					<span class="cart-text">товаров:</span>
+					<span class="cart-quantity">0</span>
+					<span class="cart-text">на сумму:</span>
+					<span class="cart-quantity">0,00 грн.</span>
+				</div>
+
+			</nav>
+			<!-- end Nav MENU -->
+
+			<!-- Filter -->
+			<!--<div class="filter">
+				Фильтр товаров
+			</div>-->
+			<!-- end Filter -->
+
+			<!-- Catalog -->
+			<aside class="catalog-container">
+
+				<div class="title-container">
+					<div class="title-container-icon-bg">
+						<img src="img/catalog-icon.png" class="title-container-icon" alt="тут иконка">
+					</div>
+					<div class="title">
+						<h2>Каталог продукции:</h2>
+					</div>
+				</div>
+
+				<div class="first-container">
+
+					<div class="first-container-icon-bg"></div>
+
+					<div class="title-cat">
+						<h3>Шины</h3>
+
+					</div>
+
+				</div>
+
+				<ul class="shini-list">
+					<li class="first-container-item">
+						<a href="#" class="first-container-text"><span class="dot"></span>Наименование 1</a>
+					</li>
+					<li class="first-container-item">
+						<a href="#" class="first-container-text"><span class="dot"></span>Наименование 2</a>
+					</li>
+					<li class="first-container-item">
+						<a href="#" class="first-container-text"><span class="dot"></span>Наименование 3</a>
+					</li>
+					<li class="first-container-item">
+						<a href="#" class="first-container-text"><span class="dot"></span>Наименование 4</a>
+					</li>
+				</ul>
+
+				<div class="second-container">
+					<div class="second-container-icon-bg"></div>
+					<div class="title-cat">
+						<h3>Диски</h3>
+					</div>
+				</div>
+
+				<ul class="diski-list">
+					<li class="second-container-item">
+						<a href="#" class="second-container-text"><span class="dot"></span>Наименование 1</a>
+					</li>
+					<li class="second-container-item">
+						<a href="#" class="second-container-text"><span class="dot"></span>Наименование 2</a>
+					</li>
+					<li class="second-container-item">
+						<a href="#" class="second-container-text"><span class="dot"></span>Наименование 3</a>
+					</li>
+					<li class="second-container-item">
+						<a href="#" class="second-container-text"><span class="dot"></span>Наименование 4</a>
+					</li>
+				</ul>
+
+				<div class="third-container">
+					<div class="third-container-icon-bg"></div>
+					<div class="title-cat">
+						<h3>Болты</h3>
+					</div>
+				</div>
+
+				<ul class="bolty-list">
+					<li class="third-container-item">
+						<a href="#" class="third-container-text"><span class="dot"></span>Наименование 1</a>
+					</li>
+					<li class="third-container-item">
+						<a href="#" class="third-container-text"><span class="dot"></span>Наименование 2</a>
+					</li>
+					<li class="third-container-item">
+						<a href="#" class="third-container-text"><span class="dot"></span>Наименование 3</a>
+					</li>
+					<li class="third-container-item">
+						<a href="#" class="third-container-text"><span class="dot"></span>Наименование 4</a>
+					</li>
+				</ul>
+			</aside>
+			<!-- end Catalog -->
+
+			<div class="production-container">
+
+				<div class="prod-1">
+					<a href="#">
+						<div class="prod-brand">Goodyear</div>
+						<div class="prod-name">Ultra Grip Extreme</div>
+					</a>
+					<div class="image-button">
+						<a href="#"><img src="img/tire-1.png" class="prod-image" alt="Тут фото шины"></a>
+					</div>
+					<div class="prod-price">1200,00 грн.</div>
+				</div>
+
+				<div class="prod-2">
+					<a href="#">
+						<div class="prod-brand">Nokian</div>
+						<div class="prod-name">Haakkapeliitta R</div>
+					</a>
+					<div class="image-button">
+						<a href="#"><img src="img/tire-2.png" class="prod-image" alt="Тут фото шины"></a>
+					</div>
+					<div class="prod-price">1285,00 грн.</div>
+				</div>
+
+				<div class="prod-3">
+					<a href="#">
+						<div class="prod-brand">Hankook</div>
+						<div class="prod-name">K 708 155/65 R14</div>
+					</a>
+					<div class="image-button">
+						<a href="#"><img src="img/tire-3.png" class="prod-image" alt="Тут фото шины"></a>
+					</div>
+					<div class="prod-price">1593,00 грн.</div>
+				</div>
+
+				<div class="prod-4">
+					<a href="#">
+						<div class="prod-brand">Goodyear</div>
+						<div class="prod-name">Ultra Grip Extreme</div>
+					</a>
+					<div class="image-button">
+						<a href="#"><img src="img/tire-1.png" class="prod-image" alt="Тут фото шины"></a>
+					</div>
+					<div class="prod-price">1200,00 грн.</div>
+				</div>
+
+				<div class="prod-5">
+					<a href="#">
+						<div class="prod-brand">Nokian</div>
+						<div class="prod-name">Haakkapeliitta R</div>
+					</a>
+					<div class="image-button">
+						<a href="#"><img src="img/tire-2.png" class="prod-image" alt="Тут фото шины"></a>
+					</div>
+					<div class="prod-price">1285,00 грн.</div>
+				</div>
+
+				<div class="prod-6">
+					<a href="#">
+						<div class="prod-brand">Hankook</div>
+						<div class="prod-name">K 708 155/65 R14</div>
+					</a>
+					<div class="image-button">
+						<a href="#"><img src="img/tire-3.png" class="prod-image" alt="Тут фото шины"></a>
+					</div>
+					<div class="prod-price">1593,00 грн.</div>
+				</div>
+
+				<div class="prod-7">
+					<a href="#">
+						<div class="prod-brand">Goodyear</div>
+						<div class="prod-name">Ultra Grip Extreme</div>
+					</a>
+					<div class="image-button">
+						<a href="#"><img src="img/tire-1.png" class="prod-image" alt="Тут фото шины"></a>
+					</div>
+					<div class="prod-price">1200,00 грн.</div>
+				</div>
+
+				<div class="prod-8">
+					<a href="#">
+						<div class="prod-brand">Nokian</div>
+						<div class="prod-name">Haakkapeliitta R</div>
+					</a>
+					<div class="image-button">
+						<a href="#"><img src="img/tire-2.png" class="prod-image" alt="Тут фото шины"></a>
+					</div>
+					<div class="prod-price">1285,00 грн.</div>
+				</div>
+
+				<div class="prod-9">
+					<a href="#">
+						<div class="prod-brand">Hankook</div>
+						<div class="prod-name">K 708 155/65 R14</div>
+					</a>
+					<div class="image-button">
+						<a href="#"><img src="img/tire-3.png" class="prod-image" alt="Тут фото шины"></a>
+					</div>
+					<div class="prod-price">1593,00 грн.</div>
+				</div>
+
+			</div>
+
+			<!-- Brand container -->
+			<aside class="brand-container">
+				<div class="brand-title-container">
+					<div class="brand-title-container-icon-bg">
+						<img src="img/catalog-icon.png" class="title-container-icon" alt="тут иконка">
+					</div>
+					<div class="title">
+						<h2>Бренды:</h2>
+					</div>
+				</div>
+
+				<div class="first-brand-container">
+					<div class="first-brand-container-icon-bg"></div>
+
+					<div class="title-cat">
+						<h3>Шины</h3>
+					</div>
+				</div>
+
+				<form action="#">
+					<div class="form-group1">
+						<input type="checkbox" class="brand-group" name="option1" value="br1" id="br1">
+						<label for="br1" class="brand-text">Бренд1</label><br>
+
+						<input type="checkbox" class="brand-group" name="option1" value="br2" id="br2">
+						<label for="br2" class="brand-text">Бренд2</label><br>
+
+						<input type="checkbox" class="brand-group" name="option1" value="br3" id="br3">
+						<label for="br3" class="brand-text">Бренд3</label><br>
+					</div>
+
+					<div class="second-brand-container">
+						<div class="second-brand-container-icon-bg"></div>
+						<div class="title-cat">
+							<h3>Диски</h3>
+						</div>
+					</div>
+
+					<div class="form-group2">
+						<input type="checkbox" class="brand-group" name="option2" value="br4" id="br4">
+						<label for="br4" class="brand-text">Бренд1</label><br>
+
+						<input type="checkbox" class="brand-group" name="option2" value="br5" id="br5">
+						<label for="br5" class="brand-text">Бренд2</label><br>
+
+						<input type="checkbox" class="brand-group" name="option2" value="br6" id="br6">
+						<label for="br6" class="brand-text">Бренд3</label><br>
+					</div>
+					<input type="submit" class="filter-button" value="Выбрать">
+
+				</form>
+			</aside>
+
+			<div class="brand-logo">
+				<div class="brand">
+					<a href="#"><img src="img/brand-1.png" alt="Лого бренда"></a>
+				</div>
+				<div class="brand">
+					<a href="#"><img src="img/brand-2.png" alt="Лого бренда"></a>
+				</div>
+				<div class="brand">
+					<a href="#"><img src="img/brand-3.png" alt="Лого бренда"></a>
+				</div>
+				<div class="brand">
+					<a href="#"><img src="img/brand-4.png" alt="Лого бренда"></a>
+				</div>
+				<div class="brand">
+					<a href="#"><img src="img/brand-5.png" alt="Лого бренда"></a>
+				</div>
+				<div class="brand">
+					<a href="#"><img src="img/brand-6.png" alt="Лого бренда"></a>
+				</div>
+				<div class="brand">
+					<a href="#"><img src="img/brand-7.png" alt="Лого бренда"></a>
+				</div>
+				<div class="brand">
+					<a href="#"><img src="img/brand-8.png" alt="Лого бренда"></a>
+				</div>
+			</div>
+
+		</main>
+
+		<footer>
+			<ul class="menu-footer">
+				<li><a href="#" class="menu-footer-link">О компании</a></li>
+				<li><a href="#" class="menu-footer-link">Оплата</a></li>
+				<li><a href="#" class="menu-footer-link">Доставка</a></li>
+				<li><a href="#" class="menu-footer-link">Статьи</a></li>
+				<li><a href="#" class="menu-footer-link">Контакты</a></li>
+			</ul>
+
+			<div class="copy">Создание сайта &copy; ValekM</div>
+		</footer>
+
+	</div>
+</body>
+
+</html>
